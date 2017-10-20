@@ -1,0 +1,50 @@
+[
+  {
+    "title": "猜你喜欢",
+    "next": "更多活动",
+    "car1": [
+      {
+        "id": 1,
+        "name": "上汽大众-全新旅途L",
+        "content": "上汽大众-全新旅途L享2年0利率",
+        "image": "Content/images/imgs_01.gif",
+        "num": 1,
+        "price": "1元",
+        "size": "1.44万"
+      },
+      {
+        "id": 2,
+        "name": "上汽大众-全新旅途L",
+        "content": "上汽大众-全新旅途L享2年0利率",
+        "image": "Content/images/imgs_02.gif",
+        "num": 1,
+        "price": "1元",
+        "size": "1.44万"
+      }
+    ]
+  },
+  {
+    "title": "猜你喜欢",
+    "next": "更多活动",
+    "car1": [
+      {
+        "id": 1,
+        "name": "上汽大众-全新旅途L",
+        "content": "上汽大众-全新旅途L享2年0利率",
+        "image": "Content/images/imgs_01.gif",
+        "num": 1,
+        "price": "1元",
+        "size": "1.44万"
+      },
+      {
+        "id": 2,
+        "name": "上汽大众-全新旅途L",
+        "content": "上汽大众-全新旅途L享2年0利率",
+        "image": "Content/images/imgs_02.gif",
+        "num": 1,
+        "price": "1元",
+        "size": "1.44万"
+      }
+    ]
+  }
+]

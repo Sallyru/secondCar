@@ -1,0 +1,170 @@
+<div class="section">
+    <div class="swiper-container container">
+        <div class="swiper-wrapper wrapper">
+            <div class="swiper-slide slide"><img src="Content/images/img_ban.gif"></div>
+            <div class="swiper-slide slide"><img src="Content/images/img_ban.gif"></div>
+            <div class="swiper-slide slide"><img src="Content/images/img_ban.gif"></div>
+            <div class="swiper-slide slide"><img src="Content/images/img_ban.gif"></div>
+        </div>
+        <div class="swiper-pagination"></div>
+    </div>
+    <ul class="section-list">
+        <li>
+            <i class="icon iconfont icon-daishouhuo-01" style="background: palevioletred;"></i>
+            车商城
+        </li>
+        <li>
+            <i class="icon iconfont icon-gouwuche" style="background: orangered;"></i>
+            分期购车
+        </li>
+        <li>
+            <i class="icon iconfont icon-quanbudingdan-01" style="background: palevioletred;"></i>
+            团购活动
+        </li>
+        <li>
+            <i class="icon iconfont icon-shanchu-01" style="background: blue;"></i>
+            找二手车
+        </li>
+    </ul>
+    <div class="img-title">
+        <img src="Content/images/img_bg.gif" alt="">
+        <p>保养预约68折 爱车浪漫购</p>
+    </div>
+    <div class="owner-content">
+        <h2 class="con-list">车主服务</h2>
+        <table>
+            <tr>
+                <td>
+                    <i class="icon iconfont icon-quanbudingdan-01" style="color: palevioletred;"></i>
+                    油卡充值
+                </td>
+                <td>
+                    <i class="icon iconfont icon-youhuiquan-geren-01" style="color: blue;"></i>
+                    低价保险
+                </td>
+                <td>
+                    <i class="icon iconfont icon-youhuiquan-01" style="color: green;"></i>
+                    4S店保养
+                </td>
+                <td>
+                    <i class="icon iconfont icon-weixuanzhong-01" style="color: green;"></i>
+                    品质轮胎
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <i class="icon iconfont icon-daishouhuo-01" style="color: orangered;"></i>
+                    车品商城
+                </td>
+                <td>
+                    <i class="icon iconfont icon-01" style="color: lightblue;"></i>
+                    洗车
+                </td>
+                <td>
+                    <i class="icon iconfont icon-zhifu-01" style="color: orangered;"></i>
+                    违章代缴
+                </td>
+                <td>
+                    <i class="icon iconfont icon-quanbudingdan-01" style="color: palevioletred;"></i>
+                    免费测评
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <i class="icon iconfont icon-dingwei" style="color: lightblue;"></i>
+                    查周边
+                </td>
+                <td>
+                    <i class="icon iconfont icon-shanchu-01" style="color: lightblue;"></i>
+                    车主卡
+                </td>
+                <td>
+                    <i class="icon iconfont icon-youhuiquan-01" style="color: lightblue;"></i>
+                    领券保养
+                </td>
+                <td>
+                    <i class="icon iconfont icon-fenlei" style="color: #666;"></i>
+                    更多
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="time-content">
+        <h2 class="con-list">限时抢购<span><time>13</time>:<time>13</time>:<time>13</time></span></h2>
+        <div class="time-list">
+            <div class="scroller">
+                <dl>
+                    <dt><img src="Content/images/img_01.gif" alt=""></dt>
+                    <dd>
+                        <span class="spns"></span>
+                        <em>热销</em>
+                        <p>补胎工具简易套装</p>
+                        <span>￥9.9元<s>28元</s></span>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt><img src="Content/images/img_02.gif" alt=""></dt>
+                    <dd>
+                        <span class="spns"></span>
+                        <em>爆款</em>
+                        <p>车用椅背挂钩</p>
+                        <span>￥9.9元<s>28元</s></span>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt><img src="Content/images/img_01.gif" alt=""></dt>
+                    <dd>
+                        <span class="spns"></span>
+                        <em>热销</em>
+                        <p>去痕增量</p>
+                        <span>￥9.9元<s>28元</s></span>
+                    </dd>
+                </dl>
+            </div>
+        </div>
+    </div>
+    <div class="active-content">
+        <h2 class="con-list">活动专区<span>更多活动<i class="icon iconfont icon-youjiantou-01"></i></span></h2>
+        <table>
+            <tr>
+                <td>
+                    <h2>测身价炫富</h2>
+                    <p>身价大PK</p>
+                    <img src="Content/images/img_03.gif" alt="">
+                </td>
+                <td>
+                    <h2>全场0利率</h2>
+                    <p>购车无压力</p>
+                    <img src="Content/images/img_04.gif" alt="">
+                </td>
+                <td>
+                    <h2>豪车分期</h2>
+                    <p>定制专属方案</p>
+                    <img src="Content/images/img_05.gif" alt="">
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="like-content" ng-repeat="shop in shopInfo">
+        <h2 class="con-list">{{shop.title}}<span>{{shop.next}}<i class="icon iconfont icon-youjiantou-01"></i></span></h2>
+        <table>
+            <tr>
+                <td ng-repeat="list in shop.car1">
+                    <img ng-src="{{list.image}}" alt="">
+                    <h2>{{list.name}}</h2>
+                    <p>{{list.content}}</p>
+                    <span>{{list.price}}<s>{{shop.size}}</s></span>
+                </td>
+            </tr>
+            <tr>
+                <td ng-repeat="list in shop.car1">
+                    <img ng-src="{{list.image}}" alt="">
+                    <h2>{{list.name}}</h2>
+                    <p>{{list.content}}</p>
+                    <span>{{list.price}}<s>{{shop.size}}</s></span>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <p id="load">加载更多</p>
+</div>

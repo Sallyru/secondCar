@@ -1,0 +1,267 @@
+.section-list li, .scroller dl dd p {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis; }
+
+html, body, .wrap {
+  width: 100%;
+  height: 100%;
+  color: #555;
+  background: #eeeeee; }
+
+.wrap {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden; }
+
+.header {
+  width: 100%;
+  height: 0.5rem;
+  position: relative;
+  background: #ffffff; }
+  .header p {
+    position: absolute;
+    right: 10px;
+    top: 14px; }
+  .header h1.title {
+    text-align: center; }
+    .header h1.title a {
+      margin: 10px;
+      color: #999;
+      padding: 8px 0;
+      font-size: .16rem; }
+    .header h1.title .bg {
+      color: #333;
+      border-bottom: 2px solid #333; }
+
+.section, shopping {
+  flex: 1;
+  overflow-y: scroll; }
+
+.container, .wrapper, .slide {
+  width: 100%;
+  height: auto; }
+  .container img, .wrapper img, .slide img {
+    width: 100%;
+    height: auto; }
+
+.container, .wrapper, .slide {
+  width: 100%;
+  height: auto; }
+  .container img, .wrapper img, .slide img {
+    width: 100%;
+    height: auto; }
+
+.section-list {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: .1rem 0;
+  background: #fff; }
+  .section-list li {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    line-height: .3rem;
+    color: #666666; }
+    .section-list li i.icon {
+      font-size: .26rem;
+      width: .5rem;
+      height: .5rem;
+      background: skyblue;
+      text-align: center;
+      color: #ffffff;
+      line-height: .5rem;
+      border-radius: 40%; }
+
+.img-title {
+  width: 100%;
+  height: auto;
+  position: relative; }
+  .img-title img {
+    width: 100%;
+    height: auto; }
+  .img-title p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: #ffffff;
+    text-align: center;
+    font-size: .2rem;
+    margin-top: -.1rem;
+    margin-left: -1.2rem; }
+
+h2.con-list {
+  font-size: .16rem;
+  width: 100%;
+  height: 0.5rem;
+  line-height: .5rem;
+  padding: 0 .2rem;
+  margin-bottom: 0; }
+  h2.con-list span {
+    float: right;
+    font-size: .14rem;
+    color: #999; }
+    h2.con-list span i.icon {
+      font-size: .14rem;
+      margin-left: .1rem; }
+
+.owner-content {
+  width: 100%;
+  height: auto;
+  background: #ffffff; }
+  .owner-content table {
+    width: 100%;
+    height: auto; }
+    .owner-content table tr {
+      display: flex; }
+      .owner-content table tr td {
+        display: flex;
+        flex-direction: column;
+        width: 25%;
+        border: 1px solid #eeeeee;
+        text-align: center;
+        line-height: .36rem;
+        padding: .1rem 0; }
+        .owner-content table tr td i.icon {
+          font-size: .28rem;
+          color: skyblue; }
+
+.time-content {
+  width: 100%;
+  height: auto;
+  background: #ffffff; }
+  .time-content time {
+    background: #666666;
+    width: .2rem;
+    height: .2rem;
+    padding: .01rem;
+    color: #ffffff; }
+  .time-content .time-list {
+    overflow: hidden; }
+
+.scroller {
+  display: flex; }
+  .scroller dl {
+    width: 30%;
+    border: 1px solid #EDEDED;
+    margin: .05rem;
+    position: relative; }
+    .scroller dl dt {
+      padding: .12rem; }
+      .scroller dl dt img {
+        width: 100%;
+        height: auto; }
+    .scroller dl dd {
+      padding: .1rem; }
+      .scroller dl dd .spns {
+        width: 0;
+        height: 0;
+        border: 30px solid transparent;
+        display: inline-block;
+        position: absolute;
+        top: -30px;
+        left: -30px;
+        border-top-color: #D50069;
+        transform: rotate(135deg); }
+      .scroller dl dd em {
+        font-size: .12rem;
+        position: absolute;
+        top: 5px;
+        left: 0px;
+        color: #fff;
+        transform: rotate(-45deg); }
+      .scroller dl dd p {
+        font-size: .16rem;
+        margin-bottom: 0;
+        line-height: .32rem; }
+      .scroller dl dd span {
+        margin-right: 5px;
+        color: #FB5401; }
+      .scroller dl dd s {
+        text-decoration: line-through;
+        color: #999;
+        font-size: .1rem;
+        padding-left: .1rem; }
+
+.active-content {
+  width: 100%;
+  height: auto;
+  background: #ffffff; }
+  .active-content table {
+    width: 100%;
+    height: auto; }
+    .active-content table tr {
+      display: flex; }
+      .active-content table tr td {
+        flex: 1;
+        border: 1px solid #eeeeee;
+        padding: .1rem;
+        line-height: 0; }
+        .active-content table tr td h2 {
+          font-size: .14rem; }
+        .active-content table tr td p {
+          color: orangered;
+          font-size: .12rem; }
+        .active-content table tr td img {
+          width: 100%;
+          height: auto; }
+
+.like-content {
+  width: 100%;
+  height: auto;
+  background: #ffffff; }
+  .like-content table {
+    width: 100%;
+    height: auto; }
+    .like-content table tr {
+      display: flex; }
+      .like-content table tr td {
+        border: 1px solid #eeeeee;
+        padding: .1rem;
+        width: 50%; }
+        .like-content table tr td h2 {
+          font-size: .14rem; }
+        .like-content table tr td p {
+          color: #999; }
+        .like-content table tr td span {
+          color: orangered; }
+          .like-content table tr td span s {
+            color: #999;
+            font-size: .1rem;
+            padding-left: .1rem; }
+        .like-content table tr td img {
+          width: 100%;
+          height: auto; }
+
+.footer {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 0.5rem;
+  background: #ffffff; }
+  .footer a {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: #666; }
+    .footer a i.icon {
+      font-size: 22px; }
+  .footer .active {
+    color: #46b8da; }
+    .footer .active i.icon {
+      color: #46b8da; }
+
+#load {
+  width: 100%;
+  height: 0.5rem;
+  line-height: .5rem;
+  text-align: center;
+  font-size: .18rem; }
+
+/*# sourceMappingURL=style.css.map */
